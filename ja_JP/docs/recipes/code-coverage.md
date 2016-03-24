@@ -155,7 +155,7 @@ $ ./node_modules/.bin/nyc report --reporter=html
 
 ### Travis CIとCoveralls
 
-最初に、coverallsにログインしてでリポジトリを認証する必要があります。一度この作業が完了したら、開発時の依存モジュールとして[`coveralls`]を追加してください。
+最初に、coverallsにログインしてリポジトリを認証する必要があります。一度この作業が完了したら、開発時の依存モジュールとして[`coveralls`]を追加してください。
 
 ```
 npm install coveralls --save-dev
